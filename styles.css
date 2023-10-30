@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Company - Web & Digital Marketing Solutions</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Your Company Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Your Company</h1>
+            <p>Your Partner for Web Development, Digital Marketing, and Software as a Service</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="service">
+            <h2>Web Development</h2>
+            <p>We create stunning websites for businesses of all sizes, from small-scale startups to large enterprises.</p>
+        </div>
+        <div class="service">
+            <h2>Digital Marketing</h2>
+            <p>Our digital marketing experts will help your business reach a wider audience and increase your online presence.</p>
+        </div>
+        <div class="service">
+            <h2>Software as a Service</h2>
+            <p>We offer innovative software solutions designed to streamline your operations and boost productivity.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <h2>About Your Company</h2>
+            <p>We are a dedicated team of professionals with a passion for creating exceptional digital solutions. Our mission is to help businesses thrive in the digital age.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
